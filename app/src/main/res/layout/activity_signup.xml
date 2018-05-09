@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        app:cardCornerRadius="1dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/image_area"
+                android:layout_width="match_parent"
+                android:layout_height="437dp"
+                android:orientation="vertical"></LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/otp_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/image_area"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/ccPickerLayout"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:orientation="vertical">
+
+
+
+                    <com.hbb20.CountryCodePicker
+                        android:id="@+id/ccpicker"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        app:ccp_defaultNameCode="KE">
+
+                    </com.hbb20.CountryCodePicker>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/phone_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_toRightOf="@+id/ccPickerLayout"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/txt_mobile_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:hint="@string/mobile_hint"
+                        android:inputType="phone" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+
+    <!--Button layout-->
+
+            <LinearLayout
+                android:id="@+id/button_area"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/otp_layout"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_Verify"
+                    android:onClick="sendCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/VerifyButton" />
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

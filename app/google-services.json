@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "420258968463",
+    "firebase_url": "https://sokomjinga-572ff.firebaseio.com",
+    "project_id": "sokomjinga-572ff",
+    "storage_bucket": "sokomjinga-572ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420258968463:android:d4868a1621184910",
+        "android_client_info": {
+          "package_name": "com.more.sokomjinga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420258968463-78oks5m6hv5486lbtp9spi4uok208e95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.more.sokomjinga",
+            "certificate_hash": "2ec9864af6e352fe187a6c60aefa1173a1c719e0"
+          }
+        },
+        {
+          "client_id": "420258968463-lno245p986trfsllgjge1u95qavmrhfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ_uHne0NvyyTSmjL-YHauG9ECfzIRiTw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420258968463-lno245p986trfsllgjge1u95qavmrhfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="colorPink">#E91E63</color>
+    <color name="colorPurple">#E040FB</color>
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorYellow">#FFEB3B</color>
+    <color name="lightgray">#F5F5F5</color>
+
+
+    <color name="startblue">#09C6DF</color>
+    <color name="endblue">#0BCCE6</color>
+    <color name="PrimaryDark">#292B3D</color>
+    <color name="graylight">#FAFAFA</color>
+    <color name="ColorWhite">#FFFFFF</color>
+
+
+    <color name="headerColour">#FFFFFF</color>
+    <color name="headerDarkColour">#AFB42B</color>
+    <color name="EditTextColor">#000000</color>
+    <color name="transparent">#00000000</color>
+
+
+
+</resources>

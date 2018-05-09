@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Msafiri</string>
+    <string name="mobile_hint">Enter Mobile Number</string>
+    <string name="VerifyButton">Verify Number</string>
+    <string name="title_activity_home">home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_splash">Welcome to Msafiri</string>
+    <string name="welcome_splash_tag">Secure        |  Reliable         | Convenient </string>
+
+
+    <!--Signin Screen-->
+    <string name="Login_Header">LOGIN</string>
+    <string name="emailHint">E-mail</string>
+    <string name="userNameHint">Full Name</string>
+    <string name="PasswordHint">Password</string>
+    <string name="Remember">Remember me?</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="LoginButton">SIGN IN</string>
+    <string name="signup_today">Not Registered? Signup today!</string>
+    <!--OTP Screen-->
+    <string name="otp_header">Mobile Number Verification</string>
+    <string name="otp_info">Please Enter your phone number. Your Phone number will be used for all transactions on Ma3</string>
+    <string name="otp_button">Verify my Mobile number</string>
+    <string name="otp_hint">Enter the One Time Password</string>
+    <string name="otp_notext">Did not receive OTP?</string>
+    <string name="otp_resend">Resend OTP</string>
+    <string name="otp_mobilenumber">Enter your Mobile Number</string>
+    <string name="otp_sendVerCode">Send Code</string>
+
+
+    <!--Navigation Bar-->
+    <string name="nav_user">Edit Account Details</string>
+    <string name="nav_receipt">Print last Receipt</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_history">Payment History</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_complaint">Complaints</string>
+
+    <string name="settings_menuitem">Reset Password</string>
+    <string name="title_activity_commuter">Msafiri</string>
+
+
+    <!--Home Screen-->
+    <string name="home_pay">Pay Fare</string>
+    <string name="home_pay_det">Pay your commute fare</string>
+
+
+    <string name="home_pff">Pay For a Friend</string>
+    <string name="home_pff_det">Pay For someone else</string>
+
+    <string name="home_sos">Request Pay</string>
+    <string name="home_sos_det">Request someone else to pay your commute</string>
+
+    <string name="home_Discount">Discount</string>
+    <string name="home_Discount_det">Current Promotions</string>
+
+    <string name="home_Other">Pay Other Bills</string>
+    <string name="home_Other_det">other bills payable by msafiri</string>
+
+
+
+
+    <!--Profile Screen-->
+    <string name="prof_commute">Commute</string>
+    <string name="prof_commute_no">12</string>
+    <string name="prof_points">Points</string>
+    <string name="prof_points_no">2015</string>
+    <string name="mobile_no_main">+254724028311</string>
+
+
+    <string name="mobilehint">mobile number</string>
+    <string name="townhint">Town</string>
+    <string name="namehint">full name</string>
+    <string name="emailEditprofile">Edit</string>
+
+
+
+</resources>
